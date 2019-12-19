@@ -8,7 +8,7 @@
         <title>多人聊天室</title>
         <link rel="stylesheet" type="text/css" href="./style.css" />
         <!--[if lt IE 8]><script src="./json3.min.js"></script><![endif]-->
-        <script src="http://realtime.plhwin.com:3000/socket.io/socket.io.js"></script>
+        <script src="http://realtime.plhwin.com/socket.io/socket.io.js"></script>
     </head>
     <body>
         <div id="loginbox">
@@ -36,7 +36,7 @@
                     </div>
                     <div class="input-box">
                         <div class="input">
-<input type="text" maxlength="140" placeholder="请输入聊天内容，按Ctrl提交" id="content" name="content">
+<input type="text" maxlength="140" placeholder="请输入聊天内容，按Enter提交" id="content" name="content">
                         </div>
                         <div class="action">
                             <button type="button" id="mjr_send" onclick="CHAT.submit();">提交</button>
